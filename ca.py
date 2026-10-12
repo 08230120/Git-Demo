@@ -9,7 +9,7 @@ root.geometry("600x400")
 canvas = tk.Canvas(root, width=600, height=400, bg="pink")
 canvas.pack()
 
-# Draw ground
+# Draw ground with python
 canvas.create_line(0, 350, 600, 350, width=3)
 
 # Create ball
